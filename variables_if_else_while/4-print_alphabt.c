@@ -10,15 +10,15 @@ int main(void)
 {
 	char alphabet;
 
-	for (alphabet = 'z'; alphabet <= 'a'; alphabet--)
+	for (alphabet = 'z'; alphabet <= 'a'; alphabet++)
 	{
-		if (alphabet !='q' && alphabet !='e')
+		if (alphabet != 'q' && alphabet != 'e')
 		{
 			putchar(alphabet);
 		}
 	}
 
-	putchar('\n");
+	putchar('\n');
 	return (0);
 }
 
