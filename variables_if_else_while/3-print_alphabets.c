@@ -3,16 +3,16 @@
 /**
  * main - prints letters
  *
- * Return: Always 
+ *Return: Always
  *
  */
 int main(void)
 {
 	char alphabets;
 
-	for (alphabet ='a';alphabet <='z'; alphabet++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		for (alphabet ='A';alphabet <='Z';alphabet++)
+		for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
 		{
 			putchar(alphabet)
 		}
